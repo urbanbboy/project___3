@@ -1,0 +1,339 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	background-color: #A5BCD1;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1440px;
+	height: auto;
+}
+
+.container--first{
+	display: flex;
+}
+
+.header__items--first{
+	width: 50%;
+}
+
+.logos{
+	display: flex;
+	margin: 15px 15px;
+}
+
+.logos img{
+	margin-top: 15px;
+
+	width: 90px;
+	height: 70px;
+}
+
+.logo__text{
+	padding-left: 10px;
+	padding-top: 20px;
+
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.title{
+	text-align: center;
+}
+
+.title h1{
+	margin:40px auto;
+
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.title h2{
+	font-weight: 500;
+}
+
+.last__publication{
+	padding-top: 20px;
+	text-align: center;
+	font-weight: 600;
+	color: #333;
+}
+
+.first__token{
+	position: relative;
+	margin: 50px 100px;
+
+	background-color: #fff;
+	border-radius: 60px;
+}
+
+.first__token:hover{
+	transition: .5s linear;
+	transform: scale(1.04, 1.04);
+}
+
+.last__photo{
+	padding-left: 30px;
+}
+
+.last__heart{
+	padding: 10px 150px;
+}
+
+.likes{
+	position: absolute;
+	top: 91%;
+	left: 50%;
+
+	color: #333;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.header__items--second{
+	display: flex;
+	margin: 20px 15px;
+	padding: 15px 10px;
+
+	background-color: #8098EF;
+
+}
+
+.gray__bg{
+	margin-bottom: 10px;
+	background-color: #63717D;
+}
+
+.nav{
+	display: flex;
+	margin-left: 90px;
+	margin-top: 7px;
+}
+
+.nav__link{
+	padding-left: 40px;
+
+	text-decoration: none;
+	color: #333;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.subscribe__input{
+	margin-left: 13px;
+	padding: 10px 5px;
+
+	border: none;
+	border-radius: 4px;
+	background-color: #e5e5e5;
+	text-transform: uppercase;
+}
+
+.about__nft{
+	margin: 0 70px;
+
+	color: #F8EB79;
+	text-align: center;
+	line-height: 1.8;
+	font-size: 20px;
+}
+
+.nft__title{
+	padding: 30px 0;
+	font-size: 30px;
+}
+
+.nft__text{
+	padding-top: 40px;
+}
+
+/*section*/
+
+.first__step{
+	display: flex;
+	margin-top: 80px;
+}
+
+.fox__photo{
+	margin: 0 88px;
+}
+
+.first__step__suptitle{
+	margin-top: 70px;
+
+	font-size: 30px;
+	font-weight: 700;
+	color: #FCFF6F;
+}
+
+.first__step__text{
+	padding-top: 23px;
+	width: 60%;
+
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.fox__photo img:hover{
+	transition: .5s linear;
+	transform: scale(1.1, 1.1);
+}
+
+.fox__photo--fourth{
+	margin-left: 100px;
+	padding: 46px 35px;
+	border-radius: 40px;
+
+	background-color: #C4C4C4;
+}
+
+.first__step__text--last{
+	width: 80%;
+}
+
+.fifth__photo{
+	margin-right: 50px;
+
+	background-color: #C4C4C4;
+	padding:46px 35px;
+	border-radius: 40px;
+}
+
+.last__title{
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+.suptitle{
+	color: #FCFF6F;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.title__text{
+	padding-top: 40px;
+
+	color: #333;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.last__photo__items{
+	margin-top: 60px;
+
+}
+
+.photo__items{
+	position: relative;
+	display: flex;
+	margin: 0 130px;
+	
+}
+
+.photo__item{
+	margin-right: 150px;
+
+	background-color: #C4C4C4;
+	padding: 40px;
+	border-radius: 40px;
+
+}
+
+.photo__item--post{
+	position: absolute;
+	top: -70px;
+	left: 850px;
+	padding: 120px 90px;
+	margin-top: 70px;
+
+	background: #C4C4C4;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*footer*/
+
+.footer{
+	margin-top: 60px;
+	background-color: #63717D;
+	color: #fff;
+}
+
+.footer__items{
+	margin: 0 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__item ul{
+	font-weight: 600;
+}
+
+.footer__item h2{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.footer__item input{
+	background-color: #e5e5e5;
+	border: none;
+	padding: 6px 10px;
+	font-size: 15px;
+	border-radius: 2px;
+}
+
+.social__icon{
+	display: flex;
+	margin-left: 120px;
+}
+
+.social__net{
+	padding-right: 20px;
+
+	color: #e5e5e5;
+	font-size: 25px;
+
+	transition: .3s linear;
+
+}
+
+.social__net:hover{
+	transition: .3s linear;
+	transform: scale(1.5, 1.5);
+}
+
+.social__net--vk:hover{
+	color: #2787F5;
+}
+
+.social__net--gmail:hover{
+	color: #FF8555;
+}
+
+.social__net--twitter:hover{
+	color: #1D9BF0;
+}
+
+.social__net--whatsapp:hover{
+	color: #49EA66;
+}
+
+.social__net--instagram:hover{
+	color: #F929D5;
+}
