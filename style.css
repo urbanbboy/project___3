@@ -40,8 +40,9 @@ h1,h2,h3,h4,h5,h6 {
 .logos img{
 	margin-top: 15px;
 
-	width: 90px;
+	width: 70px;
 	height: 70px;
+	border-radius: 5px;
 }
 
 .logo__text{
@@ -57,7 +58,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .title h1{
-	margin:40px auto;
+	margin:50px auto;
 
 	font-size: 35px;
 	font-weight: 700;
@@ -79,7 +80,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 50px 100px;
 
 	background-color: #fff;
-	border-radius: 60px;
+	border-radius: 30px;
 }
 
 .first__token:hover{
@@ -88,22 +89,29 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .last__photo{
-	padding-left: 30px;
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 90%;
+	height: 100%;
+	
+
+	border-radius: 10px;
+
 }
 
 .last__heart{
-	padding: 10px 150px;
+	padding: 10px 150px; 
 }
 
-.likes{
+/* .likes{
 	position: absolute;
-	top: 91%;
-	left: 50%;
+	top: 86%;
+	left: 58%;
 
 	color: #333;
 	font-size: 20px;
 	font-weight: 600;
-}
+} */
 
 .header__items--second{
 	display: flex;
@@ -111,12 +119,23 @@ h1,h2,h3,h4,h5,h6 {
 	padding: 15px 10px;
 
 	background-color: #8098EF;
+	border-radius: 14px;
+}
 
+.header__items--second i{
+	position: absolute;
+	top: 62px;
+	left: 45.1%;
+
+	color: #757575;
+	
 }
 
 .gray__bg{
-	margin-bottom: 10px;
+	margin: 20px 10px;
 	background-color: #63717D;
+
+	border-radius: 20px;
 }
 
 .nav{
@@ -134,11 +153,19 @@ h1,h2,h3,h4,h5,h6 {
 	text-transform: uppercase;
 }
 
+.nav__link:hover{
+	transition: .5s linear;
+	transform: scale(1.1, 1.1);
+	color: #ECFF96;
+}
+
 .subscribe__input{
+	width: 180px;
+	height: 30px;
 	margin-left: 13px;
-	padding: 10px 5px;
 
 	border: none;
+	padding-left: 30px;
 	border-radius: 4px;
 	background-color: #e5e5e5;
 	text-transform: uppercase;
@@ -162,15 +189,45 @@ h1,h2,h3,h4,h5,h6 {
 	padding-top: 40px;
 }
 
+.bg__rectangle{
+	position: absolute;
+	width: 1188px;
+	height: 326px;
+	right: 80px;
+	top: -20px;
+
+	background: #111111;
+	opacity: 0.3;
+	border-radius: 50px;
+	z-index: -5;
+}
+
 /*section*/
 
 .first__step{
 	display: flex;
 	margin-top: 80px;
+	margin-left: 100px;
+
+}
+
+.first__step--second{
+	margin-top: 150px;
 }
 
 .fox__photo{
 	margin: 0 88px;
+}
+
+.first__step__title{
+	position: relative;
+}
+
+.fox__photo--monkey img{
+	margin-top: 70px;
+	width: 300px;
+	height: 150px;
+	border-radius: 40px;
 }
 
 .first__step__suptitle{
@@ -196,22 +253,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .fox__photo--fourth{
 	margin-left: 100px;
-	padding: 46px 35px;
 	border-radius: 40px;
-
-	background-color: #C4C4C4;
 }
 
 .first__step__text--last{
-	width: 80%;
-}
-
-.fifth__photo{
-	margin-right: 50px;
-
-	background-color: #C4C4C4;
-	padding:46px 35px;
-	border-radius: 40px;
+	width: 70%;
 }
 
 .last__title{
@@ -219,11 +265,52 @@ h1,h2,h3,h4,h5,h6 {
 	margin-top: 70px;
 }
 
+.last__title--help{
+	text-align: left;
+}
 
 .suptitle{
 	color: #FCFF6F;
 	font-weight: 700;
 	font-size: 25px;
+}
+
+.suptitle--about__us{
+	margin-top: -50px;
+
+	background-color: #C4C4C4;
+	padding: 10px 0;
+}
+
+.suptitle--help{
+	text-align: center;
+	margin-top: -50px;
+
+	background-color: #C4C4C4;
+	padding: 10px 0;
+}
+
+.btn__to__main__page{
+	margin-top: 158px;
+	margin-left: 38%;
+
+	padding: 20px 70px;
+	background: rgba(17, 17, 17, 0.2);
+	border-radius:  15px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn__to__main__page a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #111;
+	font-weight: 600;
+}
+
+.btn__to__main__page:hover{
+	transition: .6s;
+	transform: scale(1.1);
 }
 
 .title__text{
@@ -234,37 +321,67 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 20px;
 }
 
+.title__text--about__us{
+	padding-top: 90px;
+}
+
 .last__photo__items{
 	margin-top: 60px;
+}
+
+.title__text--help{
 
 }
+
+/* photo__items */
 
 .photo__items{
 	position: relative;
+	justify-content: space-between;
 	display: flex;
 	margin: 0 130px;
-	
 }
 
 .photo__item{
-	margin-right: 150px;
-
 	background-color: #C4C4C4;
-	padding: 40px;
+	padding: 20px;
 	border-radius: 40px;
 
 }
 
+.photo__item--first__monkey img{
+	width: 200px;
+	height: 200px;
+	border-radius: 40px;
+}
+
+.photo__item--second__monkey img{	
+	width: 200px;
+	height: 200px;
+
+	border-radius: 40px;
+}
+
 .photo__item--post{
 	position: absolute;
-	top: -70px;
-	left: 850px;
-	padding: 120px 90px;
-	margin-top: 70px;
+	top: -15px;
+	left: 39%;
+	padding: 70px 90px;
 
 	background: #C4C4C4;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
+	font-size: 100px;
+}
+
+.photo__item--post a{
+	text-decoration: none;
+	color: #111;
+}
+
+.photo__item:hover{
+	transform: scale(1.05);
+	transition:.5s linear;
 }
 
 /*footer*/
